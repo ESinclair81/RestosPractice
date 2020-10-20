@@ -1,4 +1,10 @@
-//Google Maps Api //
+//Zomato API KEY
+//KEY: 211a37c27d46db44c2e65076d081b87b
+
+//Google Maps API KEY //
+// KEY: AIzaSyDHWqTqHS4iUxPTAddHwqSOOHJ4XDGO0qc
+
+
 
 fetch(apikey= '211a37c27d46db44c2e65076d081b87b').then(function (response) {
 	// The API call was successful!
@@ -11,11 +17,8 @@ fetch(apikey= '211a37c27d46db44c2e65076d081b87b').then(function (response) {
 	console.warn('Something went wrong.', err);
 });
 
-//Geolocation funcation
-// Note: This example requires that you consent to location sharing when
-// prompted by your browser. If you see the error "The Geolocation service
-// failed.", it means you probably did not give permission for the browser to
-// locate you.
+//Thia ia the Geolocation function //
+
 let map, infoWindow;
 
 function initMap() {
@@ -57,3 +60,19 @@ function handleLocationError(browserHasGeolocation, infoWindow, pos) {
   );
   infoWindow.open(map);
 }
+
+//Owl Carousel Function //
+$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+
+// Zomato Search Api Function //
+
+
+
+//
+fetch('$("button").click(function(){
+  $.get("demo_test.asp", function(data, status){
+    alert("Data: " + data + "\nStatus: " + status);
+  });
+});')

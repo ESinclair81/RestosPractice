@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.hero {
+    display: flex;
+    font-size: 100px;
+    border-color: lightskyblue solid 10px;
+    
+}
+
+.hero-head {
+    display: flex;
+    font-size: 75px rgb(38, 185, 235) solid 10px;
+    
+}
+
+.navbar {
+    display: flex;
+    font-size: 30px solid;
+    padding: 7px;
+    
+}
+
+.container {
+    display: flex;
+    font-size: 30px solid;
+    padding: 7px;
+    
+}
+

@@ -6,18 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>What's Poppin</title>
-    <link rel="shortcut icon" href="../images/fav_icon.png" type="image/x-icon">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
     <!-- Bulma Version 0.9.0-->
-    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css" />
-    <!-- Bulma Template -->
-    <link rel="stylesheet" type="text/css" href="../css/landing.css">
+    <link rel="stylesheet" href="https://unpkg.com/bulma@0.9.0/css/bulma.min.css">
     <!-- Owl Carousel -->
-    <link rel="stylesheet" href="owlcarousel/owl.carousel.min.css">
-    <link rel="stylesheet" href="owlcarousel/owl.theme.default.min.css"> 
-    <!-- Bulma SCSS Styles -->  
-    <link rel="stylesheet" href="/assets/scss/style.scss" >
+    <link rel="stylesheet" href="/assets/scss/owl.carousel.scss">
+    <link rel="stylesheet" href="/assets/scss/owl.theme.default.scss"> 
+    <link rel="stylesheet" href="/assets/css/resto-style.css">
 </head>
 
 <body>
@@ -149,7 +145,12 @@
                         <div class="box">
                             <div class="field is-grouped">
                                 <p class="control is-expanded">
-                                    <input class="input" type="text" placeholder="Know What You Want to Eat? Find It Here!">
+                                     <input id="getText" type="text" class="form-control" placeholder="Search for Restaurant">
+                                        </div>
+                                        <button id = "getMessage" class = "btn btn-success col-xs-2">Search</button>
+                                    </div>
+                                </div>
+                            </div>
                                 </p>
                             </div>
                         </div>
@@ -225,8 +226,7 @@
             </div>
 
     </section>
-    <script async type="text/javascript" src="../js/bulma.js"></script>
-    <script src="jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js" integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU=" crossorigin="anonymous"></script>
     <script src="owlcarousel/owl.carousel.min.js"></script> 
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDHWqTqHS4iUxPTAddHwqSOOHJ4XDGO0qc&callback=initMap"
     type="text/javascript"></script>
