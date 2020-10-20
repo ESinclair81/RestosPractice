@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DINNER TIME</title>
+</head>
+<body>
+    <h1> FIND CUISINE </h1>
+    <div> City: <input type="text" id="searchText" autofocus="true" class="form-input" placeholder="Toronto"></div>
+    <br>
+    <div> Cuisine Type:
+<!-- CUISINE TYPES MENU WITH SELECT -->
+    <select id="cuisine">
+        <option value="1">American</option>
+        <option value="2">Chinese</option>
+        <option value="3">French</option>
+        <option value="4">Greek</option>
+        <option value="5">Indian</option> 
+        <option value="6">Italian</option>
+        <option value="7">Japanese</option>
+        <option value="8">Greek</option>
+        <option value="9">Mediterranean</option>     
+        <option value="10">Mexican</option>
+        <option value="11">Thai</option>                                                                                   
+    </select>
+</div>
+<br>
+<button onclick = "myFunction()">Search</button>
+<div>
+<div id="response-container" class= "container"></div>
+</div>
+<script src="assets/js/restos-2.js"></script>
+</body>
+</html>
