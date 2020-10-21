@@ -5,23 +5,33 @@
     
 }
 
+/* Font Options */
+
+/* 
+font-family: 'Cinzel', serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+
 .hero {
     display: flex;
     font-size: 100px;
+    font-family: 'Cinzel', serif;
     border-color: lightskyblue solid 10px;
     
 }
 
-.hero-head {
+h1 {
     display: flex;
+    font-family: 'Dosis', sans-serif;
     font-size: 75px rgb(38, 185, 235) solid 10px;
     
 }
 
-.navbar {
+input {
     display: flex;
-    font-size: 30px solid;
+    font-size: 45px solid;
     padding: 7px;
+    font-family: 'Dosis', sans-serif;
     
 }
 
@@ -29,6 +39,9 @@
     display: flex;
     font-size: 30px solid;
     padding: 7px;
+    font-family: 'Open Sans', sans-serif; */
     
 }
+
+
 
